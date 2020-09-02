@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PracticeQaHabr">
+    <test name="ChangeSiteOnMainPage">
+        <classes>
+            <class name="Habr.GoToOtherServiceOfHabr"/>
+        </classes>
+    </test>
+    <test name="Autorisation">
+        <classes>
+            <class name="Habr.LogInAndLogOut"/>
+        </classes>
+    </test>
+    <test name="SuccessAlert">
+        <classes>
+            <class name="Habr.SuccessAlertAfterChangeUserMail"/>
+        </classes>
+    </test>
+</suite>
